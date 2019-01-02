@@ -31,6 +31,11 @@ jupyter notebook finding_donors.ipynb
 
 This will open the iPython Notebook software and project file in your browser.
 
+### Overview
+
+The notebook covers supervised learning techniques applied on data collected for the U.S. census to help CharityML (a fictitious charity organization) identify people most likely to donate. Data was analyzed, series of transformations and pre-processing steps applied to manipulate the data into a workable format. Linear SVC, Decision Tree Classifier and Gradient Boosting Classifier (GBC) sklearn models were evaluated so to find best solution. Based on the evaluation results sklearn GBC was selected as the most promising. The model was optimized using sklearn grid search. 
+Additionally features importance was analyzed, the importance of each feature when making predictions based on the chosen algorithm.
+
 ### Data
 
 The modified census dataset consists of approximately 32,000 data points, with each datapoint having 13 features. This dataset is a modified version of the dataset published in the paper *"Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid",* by Ron Kohavi. You may find this paper [online](https://www.aaai.org/Papers/KDD/1996/KDD96-033.pdf), with the original dataset hosted on [UCI](https://archive.ics.uci.edu/ml/datasets/Census+Income).
